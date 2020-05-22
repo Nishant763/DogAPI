@@ -1,0 +1,51 @@
+
+/**Header section**/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2%;
+    height: 10%;
+    background-color: aqua;
+}
+
+
+
+select.dog-selector{
+    width: 25%;
+    height: 10%;
+    padding: 15%;
+    font-size: 20px;
+
+}
+
+#get-image{
+    width: 15%;
+    height: 2.5%;
+    font-size: 15px;
+    padding: 1%;
+}
+/** Dog-Container **/
+
+#next{
+    width: 10%;
+    height: 5%;
+    font-size: 1.4rem;
+    border: 1px solid lightcyan;
+    color: aqua;
+}
+
+#dog-image{
+    width: 40%;
+    height: 50%;
+}
+
+#dog-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    height: 75vh;
+    /* background-color: blue; */
+}
